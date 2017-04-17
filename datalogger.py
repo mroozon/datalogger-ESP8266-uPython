@@ -11,8 +11,8 @@ sensors = ds.scan()
 
 myMqttClient = "moj-mqtt-client"  # can be anything unique
 adafruitIoUrl = "io.adafruit.com"
-adafruitUsername = "mroozon"
-adafruitAioKey = "cd97ba06801746a59750f6a4766d5fc7"
+adafruitUsername = "your username"
+adafruitAioKey = "your adafruit key"
 c = MQTTClient(myMqttClient, adafruitIoUrl, 0, adafruitUsername, adafruitAioKey)
 c.connect()
 
